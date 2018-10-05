@@ -1,6 +1,13 @@
 body{
+    padding-top: 55px;
     background: $off-white;
     color: $black;
+}
+
+html{
+    transform: rotate(0);
+    transition: transform 1s ease;
+
 }
 
 html.prevent-scroll,
